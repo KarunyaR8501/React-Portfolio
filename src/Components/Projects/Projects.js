@@ -1,29 +1,15 @@
 import React from "react";
 import "./Projects.css";
 import Event from '../../assets/event.png'
-import { FaReact, FaHardHat } from "react-icons/fa";
-import {
-  SiBlockchaindotcom,
-  SiHtml5,
-  SiMaterialui,
-  SiChai,
-  SiEthereum,
-  SiExpress,
-  SiSocketdotio,
-  SiTailwindcss,
-  SiReactrouter,
-  SiJavascript,
-  SiMongodb,
-  SiNodedotjs,
-} from "react-icons/si";
-import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
-import { IoLogoJavascript } from "react-icons/io";
+import Postcode from '../../assets/Postcode.jpg'
+import Pizza from '../../assets/Pizza.png'
+import Chat from '../../assets/Chat.png';
+import Pokemon from '../../assets/Pokemon.png'
 export const Projects = () => {
   return (
     <>
       <div className="section">
-        <h2 className="section__title different"> Recent Projects</h2>
+        <h2 className="section__title different"> Projects</h2>
         <div className="allProjects">
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
@@ -45,10 +31,7 @@ export const Projects = () => {
                   voting etc.,
                 </p>
                 <div>
-                  <FaReact />
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                 
                 </div>
                 <div>
                   <a
@@ -57,7 +40,25 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      See this Live
+                    See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/KarunyaR8501/StackOverFlow-Clone-Frontend.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      Frontend
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/KarunyaR8501/StackOverFlow-Clone-Backend.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                    Backend
                     </span>
                   </a>
                 </div>
@@ -82,14 +83,11 @@ export const Projects = () => {
                   student dashboard, assignment submission , and event management.
                 </p>
                 <div>
-                  <FaReact />
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  
                 </div>
                 <div>
                   <a
-                    href="https://admirable-elf-c6f132.netlify.app/"
+                    href="https://enchanting-truffle-314141.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -97,6 +95,224 @@ export const Projects = () => {
                       See this Live
                     </span>
                   </a>
+                  <a
+                    href="https://github.com/KarunyaR8501/Zen-Class-Event-Management-for-Student-Frontend.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      Frontend
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/KarunyaR8501/Zen-Class-Event-Management-for-Student-Backend.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      Backend
+                    </span>
+                  </a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src={Postcode}
+                    alt="Postcode"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2> Postcode</h2>
+                <p>
+                 This project enables users to share their daily coding progress through brief posts. 
+                With the ability to update their "about" status, users can highlight their current focus. 
+                The platform allows users to add, read, edit, and delete their posts and status.
+                </p>
+                <div>
+               
+                </div>
+                <div>
+                  <a
+                    href="https://postcode-app.netlify.app"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/KarunyaR8501/Postcode/tree/main/client"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      Frontend
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/KarunyaR8501/Postcode/tree/main/server"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      Backend
+                    </span>
+                  </a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                <img
+                    src={Pizza}
+                    alt="Pizza"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Pizza Paradise</h2>
+                <p>
+                Pizza Paradise is a pizza delivery web application that allows customers to order pizzas online.Customers can browse the available pizza menu and select the pizzas they want to order.This website with some features User registration and authentication system
+                </p>
+                <div>
+                 
+                </div>
+                <div>
+                  <a
+                    href="https://pizza-paradise-app.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                    See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/KarunyaR8501/Pizza-Paradise-Frontend.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      Frontend
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/KarunyaR8501/Pizza-Paradise-Backend.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                    Backend
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                   src={Chat}
+                   alt="Chat"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Chat App</h2>
+                <p>
+                A Real-Time Chat App with MERN and SocketIO. 
+                We will use Socket.io to receive and send messages between clients
+                </p>
+                <div>
+                 
+                </div>
+                <div>
+                  <a
+                    href="https://funny-talk-app.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                    See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/KarunyaR8501/ChatApp-Frontend.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      Frontend
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/KarunyaR8501/ChatApp-Backend.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                    Backend
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src={Pokemon}
+                    alt="Pokemon"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Pokemon API</h2>
+                <p>
+                Developed a Pokemon API using async/await with fetch.
+                Technologiess used : HTML , CSS , Javascript
+                Implement the Pagination
+
+                </p>
+                <div>
+                  
+                </div>
+                <div>
+                  <a
+                    href="https://chipper-chebakia-268cb5.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/KarunyaR8501/Pokemon-API"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      Frontend
+                    </span>
+                  </a>
+                 
                  
                 </div>
               </div>

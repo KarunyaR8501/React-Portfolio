@@ -34,8 +34,7 @@ export const Introduction = () => {
                   Anna University, Thoothukudi (TN)
                 </span>{" "}
                 and After I learn MERN stack & have been honing my skills in web
-                development ever since. In my free time, you can find me
-                tinkering with code and exploring new projects.
+                development ever since. In my free time, exploring new projects.
               </h4>
 
               <h4>professional Skills</h4>

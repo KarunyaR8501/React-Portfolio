@@ -86,7 +86,8 @@
   display: flex;
 }
 .onbt {
-  margin: 0 1vw 0 1vw;
+  /* margin: 0 1vw 0 1vw; */
+  margin-right: 8px;
 }
 .btns {
   color: var(--clr-primary);
