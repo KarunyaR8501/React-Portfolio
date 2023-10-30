@@ -71,7 +71,7 @@ export const About = () => {
             window.open("https://drive.google.com/file/d/1VUOKPuJYq22olTos7sogrgRbvnZG0DgA/view?usp=drivesdk");
           }}
         >
-          Resume
+        Resume
         </button>
       </div>
       <Introduction />
