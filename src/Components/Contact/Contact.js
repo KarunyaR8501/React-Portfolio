@@ -60,7 +60,7 @@ export const Contact = () => {
                 <BsFillTelephoneFill className="phone" />
               </span>
               <span>
-                <p>+91 6385638485</p>
+                <p>+91 7550060094</p>
               </span>
             </div>
           </div>
