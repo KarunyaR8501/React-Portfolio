@@ -45,7 +45,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+916385638485"
+            href="tel:+917550060094"
             target="_blank"
             rel="noreferrer"
             aria-label="phone"
